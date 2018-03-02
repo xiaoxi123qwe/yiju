@@ -1,0 +1,203 @@
+.tuandui_banner{
+    margin-top: -135px;
+    top: 150px;
+    left: 60px;
+}
+.tuandui_banner img{
+	width: 273px;
+	height: 255px;
+}
+.tuandui_content h1{
+    position: absolute;
+    top: 80px;
+    left: 280px;
+    line-height: 63px;
+    margin-left: 0;
+}
+.tuandui_content .banner_line{
+    position: absolute;
+    top: 150px;
+    left: 582.5px;
+}
+.tuandui_content p{
+    margin-top: -160px;
+    position: absolute;
+    top: 335px;
+    left: 95px;
+}
+.team_bottom{
+	width: 1200px;
+    margin: 0 auto;
+    margin-top: -21px;
+}
+.team_bottom1{
+    width: 1000px;
+    margin: 0 auto;
+    height: 473px;
+}
+.team_bottom1_left{
+	width: 237px;
+    height: 473px;
+    background: url(../img/team1.png);
+    float: left;
+    color: #fff;
+}
+.team_bottom1_left p{
+	font-size: 14px;
+    margin-top: 353px;
+    line-height: 14px;
+    margin-left: -65px;
+    float: left;
+    transform: rotate(90deg);
+}
+.team_bottom1_left h1{
+    width: 26px;
+    font-size: 24px;
+    margin-top: 308px;
+    line-height: 24px;
+    margin-left: -75px;
+    float: left;
+}
+.team_bottom1_right{
+    width: 763px;
+    height: 437px;
+    float: left;
+}
+.team_bottom1_right li{
+    width: 240px;
+    height: 229px;
+    border: 2px solid #ccc;
+    margin-left: 14px;
+    float: left;
+}
+.team_bottom1_right img{
+	width: 156px;
+    height: 229px;
+    margin-top: -2px;
+    margin-left: -2px;
+    float: left;
+}
+.team_bottom1_right1{
+    width: 72px;
+    height: 255px;
+    float: right;
+    padding-top: 36px;
+} 
+.team_bottom1_right1 span{
+    font-family: "San Francisco Display";
+    font-size: 12px;
+    font-weight: bold;
+} 
+.team_bottom1_right1 h1{
+	font-family: "微软雅黑";
+    font-size: 20px;
+    line-height: 20px;
+} 
+.team_bottom1_right1 .team_bottoom1_line{
+    width: 72px;
+    height: 1px;
+    background-color: #ccc;
+    margin-top: 66px;
+} 
+.team_bottom1_right1 .team_bottoom1_line1{
+    width: 28px;
+    height: 1px;
+    background-color: #000;
+    margin-top: -1px;
+    margin-bottom: 5px;
+}
+.team_bottom1_right1 P{
+    font-family: 微软雅黑;
+    font-size: 14px;
+    line-height: 20px;
+    color: #CACACA;
+}
+.team_bottom1_item{
+	margin-bottom: 15px;
+}
+.team_bottom1_right li:hover{
+	box-shadow: 0px 0px 20px 5px #EEEFF0;
+}
+.team_bottom2{
+	margin-top: 82px;
+}
+.team_bottom2 .team_bottom1_left{
+	float: right;
+}
+.team_bottom2 .team_bottom1_right{
+	float: left;
+}
+.team_bottom_tupian{
+	width: 1200px;
+    height: 127px;
+    margin-top: 100px;
+}
+.team_bottom3{
+	width: 1000px;
+    margin: 0 auto;
+    height: 475px;
+}
+.team_bottom3 ul{
+    height: 345px;
+}
+.team_bottom3 li{
+    width: 456px;
+    height: 149px;
+    float: left;
+}
+.team_member{
+	width: 131px;
+    height: 131px;
+    border-radius: 131px;
+    background-color: #E5E5E5;
+    margin-top: 18px;
+    float: left;
+    margin-right: 32px;
+}
+.team_member img{
+	width: 114px;
+    height: 141px;
+    margin-top: -18px;
+    margin-left: 9.5px;
+}
+.team_bottom3 h1{
+    font-size: 36px;
+    font-family: "微软雅黑";
+    color: #767676;
+    line-height: 76px;
+}
+.team_bottom3 p{
+	font-size: 18px;
+    font-family: "微软雅黑";
+    color: #9F9F9F;
+    line-height: 25px;
+}
+.team_bottom3_item{
+    margin-top: 47px;
+}
+.team_lunbodian{
+    width: 116px;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 59px;
+}
+.team_lunbodian .lunbodian1{
+    width: 25px;
+    height: 25px;
+    background-color: #E5E5E5;
+    float: left;
+    color: #767676;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+}
+.team_lunbodian div{
+	margin-right: 20px;
+}
+.lunbodianz{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.team_lunbodian .lunbodian1r{
+	margin-right: 0;
+}
