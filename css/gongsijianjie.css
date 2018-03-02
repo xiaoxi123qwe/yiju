@@ -241,7 +241,7 @@
 }
 .pinpan{
 	width: 100%;
-	height: 1550px;
+	height: 1645px;
 }
 .pinpai_content{
 	margin-top: 98px;
@@ -258,7 +258,7 @@
     width: 9px;
     height: 9px;
     background-color: #000;
-    margin-tpinpanop: 4px;
+    margin-top: 4px;
     float: left;
 }
 .pinpai_zw h1{
@@ -284,7 +284,6 @@
 .pinpai_zw1{
 	border-top: 0;
 }
-.
 .pinpai_tu img{
     width: 100%;
     margin-top: 50px;
@@ -298,4 +297,10 @@
     margin-left: 22px;
     line-height: 22px;
     font-size: 14px;
+}
+.pinpai_zw2{
+    margin-bottom: -60px;
+}
+.team_bottom3_item1{
+    margin-left: 88px;
 }
