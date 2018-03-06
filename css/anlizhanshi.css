@@ -338,3 +338,15 @@
 .clear{
 	clear: both;
 }
+.wancheng_bottom1 a{
+    color: #000;
+}
+.banner_img{
+    width: 281px;
+    height: 269px;
+    margin-left: 468px;
+}
+.banner_img img{
+    width: 96px;
+    height: 245px;
+}
