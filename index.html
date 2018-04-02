@@ -44,6 +44,7 @@
 			<img src="img/banner.png" alt="" class="banner_img">
 			<img src="img/banner.png" alt="" class="banner_img">
 			<img src="img/banner.png" alt="" class="banner_img">
+			<img src="img/banner.png" alt="" class="banner_img">
 		</div>
 		<span class="banner_number">
 			<span class="banner_number1 banner_number2"><em class="number2_left"></em>1<em class="number2_right"></em></span>
@@ -75,8 +76,44 @@
 				</div>				
 			</div>
 			<div class="chanpin_bottom">
-				<div class="chanpin_imgbox"></div>
-				<div class="chanpin_imgbox chanpin_imgbox2"></div>
+				<div class="chanpin_imgbox">
+					<div class="chanpin_zhezhao">
+						<div class="chanpin_shugang">
+							<span class="chanpin_can">餐</span>
+							<span class="chanpin_zhuo">桌</span>
+						</div>
+						<p class="chanpin_table">T A B L E</p>
+						<div class="table_gang table_left">
+							<div class="table_juxing">
+								<img src="img/table_juxing.png" alt="" class="juxing_img"></div>
+							<div class="table_yuan"></div>
+						</div>
+						<div class="table_gang table_right">
+							<div class="table_yuan"></div>
+							<div class="table_juxing">
+								<img src="img/table_juxing.png" alt="" class="juxing_img"></div>
+						</div>
+					</div>
+				</div>
+				<div class="chanpin_imgbox chanpin_imgbox2">
+					<div class="chanpin_zhezhao">
+						<div class="chanpin_shugang">
+							<span class="chanpin_can">餐</span>
+							<span class="chanpin_zhuo">桌</span>
+						</div>
+						<p class="chanpin_table">T A B L E</p>
+						<div class="table_gang table_left">
+							<div class="table_juxing">
+								<img src="img/table_juxing.png" alt="" class="juxing_img"></div>
+							<div class="table_yuan"></div>
+						</div>
+						<div class="table_gang table_right">
+							<div class="table_yuan"></div>
+							<div class="table_juxing">
+								<img src="img/table_juxing.png" alt="" class="juxing_img"></div>
+						</div>
+					</div>
+				</div>
 				<div class="chanpin_imgbox chanpin_imgbox3">
 					<div class="chanpin_zhezhao">
 						<div class="chanpin_shugang">
@@ -97,9 +134,63 @@
 						</div>
 					</div>
 				</div>
-				<div class="chanpin_imgbox chanpin_imgbox4"></div>
-				<div class="chanpin_imgbox chanpin_imgbox5"></div>
-				<div class="chanpin_imgbox chanpin_imgbox6"></div>
+				<div class="chanpin_imgbox chanpin_imgbox4">
+					<div class="chanpin_zhezhao">
+						<div class="chanpin_shugang">
+							<span class="chanpin_can">餐</span>
+							<span class="chanpin_zhuo">桌</span>
+						</div>
+						<p class="chanpin_table">T A B L E</p>
+						<div class="table_gang table_left">
+							<div class="table_juxing">
+								<img src="img/table_juxing.png" alt="" class="juxing_img"></div>
+							<div class="table_yuan"></div>
+						</div>
+						<div class="table_gang table_right">
+							<div class="table_yuan"></div>
+							<div class="table_juxing">
+								<img src="img/table_juxing.png" alt="" class="juxing_img"></div>
+						</div>
+					</div>
+				</div>
+				<div class="chanpin_imgbox chanpin_imgbox5">
+					<div class="chanpin_zhezhao">
+						<div class="chanpin_shugang">
+							<span class="chanpin_can">餐</span>
+							<span class="chanpin_zhuo">桌</span>
+						</div>
+						<p class="chanpin_table">T A B L E</p>
+						<div class="table_gang table_left">
+							<div class="table_juxing">
+								<img src="img/table_juxing.png" alt="" class="juxing_img"></div>
+							<div class="table_yuan"></div>
+						</div>
+						<div class="table_gang table_right">
+							<div class="table_yuan"></div>
+							<div class="table_juxing">
+								<img src="img/table_juxing.png" alt="" class="juxing_img"></div>
+						</div>
+					</div>
+				</div>
+				<div class="chanpin_imgbox chanpin_imgbox6">
+					<div class="chanpin_zhezhao">
+						<div class="chanpin_shugang">
+							<span class="chanpin_can">餐</span>
+							<span class="chanpin_zhuo">桌</span>
+						</div>
+						<p class="chanpin_table">T A B L E</p>
+						<div class="table_gang table_left">
+							<div class="table_juxing">
+								<img src="img/table_juxing.png" alt="" class="juxing_img"></div>
+							<div class="table_yuan"></div>
+						</div>
+						<div class="table_gang table_right">
+							<div class="table_yuan"></div>
+							<div class="table_juxing">
+								<img src="img/table_juxing.png" alt="" class="juxing_img"></div>
+						</div>
+					</div>
+				</div>
 			</div>
 
 		<!-- 产品中心结束
@@ -271,5 +362,16 @@
 		</div>
 	</section>
 	<!-- 尾部结束 -->
+	<script src="jquery.js"></script>
+	<script>
+		{
+		    $(".banner_number1 ").each(function(index){
+		        $(this).click(function(){
+                    $(".banner_img").css("z-index","-1");
+					$(".banner_img").eq(index).css("z-index","1");
+				});
+			});
+		}
+	</script>
 </body>
 </html>
