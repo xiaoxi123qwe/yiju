@@ -415,6 +415,9 @@
     float: right;
 	width: 42px;
     height: 42px;
+	background-color: #000;
+}
+.done{
 	background-color: #2B6C8C;
 }
 .anli_right{
@@ -812,4 +815,7 @@ input{
 }
 .gengduo_item p:hover{
 	color: #AEC4D2;
+}
+.gray{
+	filter: grayscale(1);
 }
