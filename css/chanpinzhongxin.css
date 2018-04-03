@@ -5,6 +5,7 @@
 .chanpin_bottom ul{
 	width: 1200px;
 	height: 800px;
+    float: left;
 }
 .chanpin_bottom li{
     width: 266px;
@@ -104,7 +105,7 @@
 	float: left;
 	margin-right: 26px;
 }
-.lunbodian .lunbodianl{
+.lunbodian .lunbodianjt{
     width: 12px;
     height: 22px;
     margin: 0px;
@@ -132,7 +133,11 @@
 .lunbodian .lunbodian3{
 	margin-left: 26px;
 }
-.lunbodian .lunbodian1:hover{
+/*.lunbodian .lunbodian1:hover{*/
+    /*background-color: #184F6B;*/
+    /*color: #fff;*/
+/*}*/
+.lunbodian0.active{
     background-color: #184F6B;
     color: #fff;
 }
@@ -143,4 +148,14 @@
 .banner_img img{
 	width: 250px;
 	height: 234px;
+}
+.chanpin_list{
+    width: 1200px;
+    height: 800px;
+    overflow: hidden;
+}
+.chanpin_inner{
+    width: 7000px;
+    height: 800px;
+    transition: all 1s;
 }
